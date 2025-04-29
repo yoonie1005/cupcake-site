@@ -1,0 +1,52 @@
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Logo Style */
+  header img {
+    max-height: 80px;
+  }
+  
+  /* Navigation style */
+  #primary\ nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Menu style */
+  #primary\ nav ul li {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  /* Menu Hover */
+  #primary\ nav ul li:hover {
+    color: #ff69b4; 
+  }
+  
+  /* Responsive for mobile */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #primary\ nav ul {
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
